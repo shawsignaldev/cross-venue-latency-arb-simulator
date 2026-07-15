@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cross-venue-latency-arb-simulator"
+version = "0.1.0"
+description = "Latency-adjusted cross-venue opportunity ranking for market microstructure research."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Ephraim Shaw" }]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
