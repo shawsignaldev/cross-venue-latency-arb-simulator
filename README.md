@@ -24,3 +24,11 @@ python -m pytest -q
 The goal is to show engineering judgment across quant research, cyber-physical systems,
 low-latency infrastructure, and hardware/software co-design. This is a public prototype,
 not a live trading system.
+
+## Research depth
+
+This repo includes additional research-methodology notes:
+
+- [Math model](docs/math-model.md)
+- [Validation protocol](docs/validation-protocol.md)
+- [Limitations and regimes](docs/limitations-and-regimes.md)
